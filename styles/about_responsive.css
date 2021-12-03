@@ -182,6 +182,9 @@
 	{
 		margin-bottom: 0;
 	}
+	.logo-about {
+		max-width: 141px !important;
+	}
 	.logo_1
 	{
 		display: none;
@@ -347,6 +350,9 @@
 	{
 		font-size: 18px;
 		margin-top: 24px;
+	}
+	.logo-about {
+		max-width: 105px !important;
 	}
 }
 

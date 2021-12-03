@@ -357,7 +357,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(14,9,35,0.88);
+	background: rgba(62,39,35,0.88);
 	z-index: 101;
 	border-bottom: solid 2px #ff9000;
 }
@@ -368,7 +368,10 @@ section
 }
 .logo
 {
-	margin-bottom: 29px;
+	margin-bottom: -30px;
+}
+.logo-about {
+	max-width: 286px;
 }
 .logo_2
 {
@@ -706,7 +709,7 @@ section
 
 .home
 {
-	height: 100vh;
+	height: 500px;
 	background: transparent;
 }
 .home_container
@@ -929,7 +932,7 @@ section
 .intro
 {
 	background: #ffffff;
-	padding-top: 110px;
+	padding-top: 348px;
 	padding-bottom: 110px;
 }
 .intro_row
@@ -1004,9 +1007,9 @@ section
 {
 	padding-top: 94px;
 	padding-left: 130px;
-	padding-bottom: 110px;
+	padding-bottom: 36px;
 	padding-right: 130px;
-	background: #f4f5fa;w
+	background: #f4f5fa;
 }
 .rooms_right_content .section_title > div
 {
@@ -1058,11 +1061,11 @@ section
 }
 .rooms_left_content
 {
-	background: #171126;
+	background: #3e2723;
 	padding-left: 163px;
 	padding-top: 81px;
 	padding-right: 100px;
-	padding-bottom: 110px;
+	padding-bottom: 71px;
 }
 .rooms_left_content .section_title h1
 {
@@ -1133,6 +1136,7 @@ section
 .discover_content
 {
 	width: 100%;
+	padding-bottom: 95px;
 }
 .discover_highlight
 {
@@ -1269,7 +1273,7 @@ section
 }
 .testimonials_slider .owl-dots .owl-dot.active span
 {
-	background: #ff9000;
+	background: #bf360c;
 }
 
 /*********************************
@@ -1281,6 +1285,7 @@ section
 	display: block;
 	position: relative;
 	padding-top: 59px;
+	background: rgba(62,39,35,0.88);
 	border-top: solid 2px #ff9000;
 }
 .footer_content
@@ -1311,3 +1316,7 @@ section
 	font-weight: 400;
 	color: rgba(255,255,255,0.15);
 }
+
+/*********************************
+My Code
+*********************************/

@@ -354,7 +354,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(14,9,35,0.88);
+	background: rgba(62,39,35,0.88);
 	z-index: 101;
 	border-bottom: solid 2px #ff9000;
 }
@@ -365,7 +365,10 @@ section
 }
 .logo
 {
-	margin-bottom: 29px;
+	margin-bottom: -30px;
+}
+.logo-about {
+	max-width: 286px;
 }
 .logo_2
 {
@@ -911,7 +914,7 @@ section
 .contact
 {
 	background: #ffffff;
-	padding-top: 120px;
+	padding-top: 328px;
 }
 .contact_text
 {
@@ -1017,8 +1020,8 @@ section
 	height: 100%;
 	overflow: hidden;
 }
-#map
-{
+
+.map-view {
 	width: 100%;
 	height: calc(100% + 30px);
 }
@@ -1034,7 +1037,7 @@ section
 	transform: translate(-50%, -50%);
 	width: 459px;
 	height: 537px;
-	background: #190a49;
+	background: rgba(141,110,99,0.88);
 }
 .contact_map_content > div
 {
@@ -1068,6 +1071,7 @@ section
 	display: block;
 	position: relative;
 	padding-top: 59px;
+	background: rgba(62,39,35,0.88);
 	border-top: solid 2px #ff9000;
 }
 .footer_content

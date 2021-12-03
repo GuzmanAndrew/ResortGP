@@ -356,7 +356,7 @@ section
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(14,9,35,0.88);
+	background: rgba(62,39,35,0.88);
 	z-index: 101;
 	border-bottom: solid 2px #ff9000;
 }
@@ -367,7 +367,10 @@ section
 }
 .logo
 {
-	margin-bottom: 29px;
+	margin-bottom: -30px;
+}
+.logo-about {
+	max-width: 286px;
 }
 .logo_2
 {
@@ -913,7 +916,7 @@ section
 .intro
 {
 	background: #ffffff;
-	padding-top: 142px;
+	padding-top: 368px;
 	padding-bottom: 110px;
 }
 .intro_text
@@ -1084,6 +1087,7 @@ section
 	display: block;
 	position: relative;
 	padding-top: 59px;
+	background: rgba(62,39,35,0.88);
 	border-top: solid 2px #ff9000;
 }
 .footer_content
